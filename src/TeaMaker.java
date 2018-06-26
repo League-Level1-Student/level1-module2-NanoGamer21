@@ -6,12 +6,15 @@
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
-
+public static void main(String[] args) {
+	TeaBag= new teabag("Green",)
+}
 }
 
 class TeaBag {
 
-	public final static String GREEN = "Green";
+	public final 
+tatic String GREEN = "Green";
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
 	public final static String PASSION_FRUIT = "Passion Fruit";
@@ -19,7 +22,8 @@ class TeaBag {
 	private String flavor;
 
 	TeaBag(String flavor) {
-		this.flavor = flavor;
+		this.flavor = flavor;	
+
 	}
 
 	String getFlavor() {
