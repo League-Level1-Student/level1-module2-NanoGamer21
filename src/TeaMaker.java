@@ -7,14 +7,20 @@ public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
 public static void main(String[] args) {
-	TeaBag= new teabag("Green",)
+	TeaBag tea = new TeaBag("Mint");
+	Kettle dru = new Kettle();
+	dru.boil();
+	Cup DUM = new Cup();
+
+	DUM.makeTea(tea,dru.getWater());
+	
 }
 }
 
 class TeaBag {
 
 	public final 
-tatic String GREEN = "Green";
+static String GREEN = "Green";
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
 	public final static String PASSION_FRUIT = "Passion Fruit";
@@ -24,6 +30,10 @@ tatic String GREEN = "Green";
 	TeaBag(String flavor) {
 		this.flavor = flavor;	
 
+	}
+
+	public TeaBag() {
+		// TODO Auto-generated constructor stub
 	}
 
 	String getFlavor() {
